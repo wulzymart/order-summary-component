@@ -1,0 +1,104 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: url(images/pattern-background-desktop.svg);
+  background-size: cover;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+.container {
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  padding: 0;
+  border-radius: 20px;
+}
+.image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+main {
+  padding: 20px 35px;
+}
+.center {
+  text-align: center;
+}
+.plan {
+  padding: 30px;
+}
+.flex-box {
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.text-padding {
+  margin: 5px;
+  line-height: 1;
+}
+.margin-set {
+  margin: 25px auto;
+}
+button {
+  background-color: hsl(245, 75%, 52%);
+  border: 0;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 100%;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+button:hover {
+  background-color: hsl(223, 47%, 23%);
+}
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.heading {
+  color: hsl(223, 47%, 23%);
+}
+.no-dec-anchor {
+  text-decoration: none;
+  font-weight: 700;
+}
+.no-dec-anchor:hover {
+  font-weight: 900;
+}
+.dec-anchor {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+.dec-anchor:hover {
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+
+.box-1 {
+  margin-left: 10px;
+}
+/* .box-2 {
+  display: flex;
+  justify-content: center;
+} */
+@media (max-width: 375px) {
+  body {
+    background: url(images/pattern-background-mobile.svg);
+  }
+  .container {
+    width: 95%;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
